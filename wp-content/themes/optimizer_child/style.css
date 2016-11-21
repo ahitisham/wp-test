@@ -1,0 +1,375 @@
+/*
+ Theme Name:   optimizer_child
+  Author:       Ahitisham Ahamad
+  Description:  optimizer Child Theme
+  Author URI:   http://ahitisham.com
+  Theme URI:    http://caritor.com/twenty-fifteen-child/
+  Version:      1.0.0
+ Template:     optimizer
+ 
+*/
+@import url("../optimizer/style.css");
+ 
+
+
+.midrow_block h3 {
+    font-size: 1.2em;
+}
+.midrow_block .block_content {
+    line-height: 1.5em;
+}
+/*testimomial*/
+.testimonial{
+	
+    color: white;
+	text-align: center;
+	text-transform: uppercase;
+
+}
+#optimizer_front_text-8 .text_block {
+    background-color: #1c1c1c;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    padding-left: 10% !important;
+    padding-right: 18% !important;
+    color: #ffffff;
+    background-image: url();
+}
+
+    
+ h3 {
+    line-height: .18em;
+}
+/*master slider*/
+
+.stat_content_inner {
+     transform: none !important; 
+         margin-top: -20px;
+}
+#optimizer_front_blocks-3
+{
+    margin-top: -16px;
+   /* margin-left: 14px;*/
+
+}
+/*footer*/
+
+.icon{
+	color: #5bb4ff;
+}
+.icon2{
+    color: gray;
+}
+.title{
+	color: #5bb4ff;
+	line-height: 33px;
+	border-bottom: 1px solid;
+	width: 83%;
+	}
+
+.text_block_content {
+    box-sizing: border-box;
+    text-align: left;
+}
+.widget_wrap{
+	text-align: left;
+}
+#footer .widgets .widgettitle{
+    color: #5bb4ff !important;
+}
+#footer .widgets .widgettitle {
+    font-size: 1.3em !important;
+    font-weight: 600 !important;
+}
+#footer .widgets .widgettitle {
+    font-size: 1.3em !important;
+    font-weight: 600 !important;
+    border-bottom: 1px solid;
+    line-height: 35px;
+    width: 83%;
+}
+
+#optimizer_front_text-27{
+	float: right;
+}
+/*.social
+{
+	margin-left: 32%;
+}*/
+ .social > li {
+    display: inline;
+    list-style: outside none none;
+    margin: 0 2px;
+}
+#copyright {
+    color: #999999;
+    /*height: 93px !important;*/
+}
+.copyright_center #footer_menu {
+    width: 100%;
+    display: none !important; 
+}
+/*content area*/
+.axn_block4 {
+margin-top: -5% !important;
+}
+.axn_block5{
+	margin-top: -5% !important;
+}
+.axn_block6{
+margin-top: -5% !important;
+}
+
+
+/*contact us page*/
+
+
+.flx{
+	display: flex;
+}
+.span4{
+	margin: 1em;
+	line-height: 1.4em;
+}
+.thn_post_wrap {
+  line-height: 1.4em;
+}
+.cform{
+	
+	margin: 1em;
+}
+
+
+.contact-form input[type="text"], .contact-form input[type="email"] {
+    margin-bottom: 13px;
+    max-width: 98%;
+    /*width: 90% !important;*/
+}
+.contact-form textarea {
+    height: 200px;
+    width: 29% !important;
+    float: none;
+    margin-bottom: 13px;
+}
+.pushbutton-wide{
+	background-color: #5bb4ff;
+
+}
+.contact-form-submission {
+    margin-bottom: 4em;
+    padding: 1.5em 1em;
+    line-height: 0.9em;
+}
+.hr1
+{
+	width: 566px;
+    margin-left: 2px;
+}
+/*contact us new start*/
+.container
+{
+    width: 65%;
+}
+.l
+{
+    float: left;
+    width: 25%;
+    margin-right: 25%;
+    margin-bottom: 20px;
+    border-top: solid;
+    border-top-color: #5bb4ff;
+}  
+.l1
+{
+    float: left;
+    width: 45%;
+    margin-right: 55%;
+    margin-bottom: 20px;
+} 
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px)
+{
+.container
+{
+    width: 100%;
+}
+.l
+{
+    float: left;
+    width: 25%;
+padding-left: 5%;
+    margin-right: 20%;
+    margin-bottom: 20px;
+} 
+.l1
+{
+    float: left;
+    width: 45%;
+    padding-left: 5%;
+    margin-right: 55%;
+    margin-bottom: 20px;
+} 
+.contact-form textarea {
+    height: 200px;
+    width: 44% !important;
+    float: none;
+    margin-bottom: 13px;
+}
+}
+@media screen and (min-device-width: 360px) and (max-device-width: 640px)
+{
+.container
+{
+    width: 100%;
+}
+.l1
+{
+    float: left;
+    width: 75%;
+    padding-left: 5%;
+    margin-right: 55%;
+    margin-bottom: 20px;
+} 
+.l
+{
+    float: left;
+    width: 75%;
+    padding-left: 5%;
+    margin-right: 20%;
+    margin-bottom: 20px;
+}
+.contact-form textarea {
+    height: 200px;
+    width: 95% !important;
+    float: none;
+    margin-bottom: 13px;
+}
+}
+/*contact us new end*/
+/*contact us*/
+/*body color change when scroll start*/
+body {
+    background-color: #232f3e;
+
+
+}
+@media only screen and (orientation: landscape) {
+    body {
+        background-color: white;
+
+    }
+/*body color change when scroll end*/
+
+/*780 by default*/
+
+
+/*@media screen and (max-width: 768px){ 
+.hide_mob_rightsdbr{ display:none;}
+#footer .widgets .widget {  width: 50%!important;}
+}*/
+
+/*@media (min-width: 768px)
+{
+
+.col1
+    {
+        float: left;
+        width: 30%;
+        margin-right: 4%;
+    }
+
+    .col2
+    {
+        float: left;
+        width: 30%;
+        margin-right: 4%;
+        margin-top: 255px;
+    }
+
+    .col3
+    {
+        color: #5bb4ff;
+        float: left;
+        width: 32%;
+
+    }
+    
+}*/
+/*footer social media by daya sir*/
+
+
+ pre {
+        white-space: pre-wrap;       /* CSS 3 */
+        white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+        white-space: -pre-wrap;      /* Opera 4-6 */
+        white-space: -o-pre-wrap;    /* Opera 7 */
+        word-wrap: break-word;       /* Internet Explorer 5.5+ */
+        padding:0px;
+        margin:0px
+    }
+
+
+
+/*
+
+ul#social{
+    margin-top: -50px;
+    position: absolute;
+    width: 300px;
+}
+
+#social li {
+    display: inline-block;
+}
+#social li a:hover {
+    background-color: #262626;
+}
+#social li a {
+    background-color: #262626;
+    border: 6px solid #141414;
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-block;
+    transition: background 0.5s ease 0s;
+}
+#facebook a {
+    background: url("assets/images/social_icons.png") repeat scroll -11px -10px rgba(0, 0, 0, 0);
+    height: 50px;
+    width: 51px;
+}
+
+#facebook a:hover {
+    background: url("assets/images/social_icons.png") repeat scroll -81px -10px rgba(0, 0, 0, 0);
+    height: 50px;
+    width: 51px;
+}
+#twitter a {
+    background: url("assets/images/social_icons.png") repeat scroll -11px -73px rgba(0, 0, 0, 0);
+    height: 50px;
+    width: 51px;
+}
+#twitter a:hover {
+    background: url("assets/images/social_icons.png") repeat scroll -81px -73px rgba(0, 0, 0, 0);
+    height: 50px;
+    width: 51px;
+}
+#linkedin a {
+    background: url("assets/images/social_icons.png") repeat scroll -11px -136px rgba(0, 0, 0, 0);
+    height: 50px;
+    width: 51px;
+}
+#linkedin a:hover {
+    background: url("assets/images/social_icons.png") repeat scroll -81px -136px rgba(0, 0, 0, 0);
+    height: 50px;
+    width: 51px;
+}
+#instagram a {
+    background: url("assets/images/social_icons.png") repeat scroll -11px -197px rgba(0, 0, 0, 0);
+    height: 50px;
+    width: 51px;
+}
+#instagram a:hover {
+    background: url("assets/images/social_icons.png") repeat scroll -81px -197px rgba(0, 0, 0, 0);
+    height: 50px;
+    width: 51px;
+}
+*/
